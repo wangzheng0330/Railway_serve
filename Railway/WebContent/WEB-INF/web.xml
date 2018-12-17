@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <servlet-name>logcheck</servlet-name>
+    <servlet-class>mypack.logcheck</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>logcheck</servlet-name>
+    <url-pattern>/logcheck</url-pattern>
+  </servlet-mapping>
+  
+	<filter>
+		<filter-name>AuthFilter</filter-name>
+		<filter-class>mypack.util.AuthFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>AuthFilter</filter-name>
+		<url-pattern>/myinformation.jsp</url-pattern>
+	</filter-mapping>
+  <filter-mapping>
+		<filter-name>AuthFilter</filter-name>
+		<url-pattern>/sure_buyticket.jsp</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>AuthFilter</filter-name>
+		<url-pattern>/train_order.jsp</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>AuthFilter</filter-name>
+		<url-pattern>/tieluchangxing.jsp</url-pattern>
+	</filter-mapping>
+	<error-page>
+		<error-code>404</error-code>
+		<location>/404.jsp</location>
+	</error-page>
+	 <error-page>
+		  <error-code>500</error-code>
+		  <location>/init.jsp</location>
+	 </error-page>
+</web-app>

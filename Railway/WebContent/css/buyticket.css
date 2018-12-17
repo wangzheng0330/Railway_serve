@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+.t-info .t-tit {
+    border-bottom: 1px dashed #999;
+}
+.t-info p {
+    line-height: 32px;
+}
+.mr5 {
+    margin-right: 5px;
+}
+.t-info .t-tit strong {
+    font-size: 16px;
+}
+strong, b {
+    font-weight: bold;
+}
+.ml5 {
+    margin-left: 5px;
+}
+.t-info .s1 {
+    margin-right: 25px;
+    color: #333;
+}
+.t-info .s2 {
+    color: #999;
+    margin-right: 25px;
+}
+.colorA {
+    color: #fb7403;
+}
+.person {
+    margin-top: 10px;
+}
+.per-sel {
+    border-bottom: 1px dashed #999;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-top: 8px;
+}
+.per-ticket {
+    width: 100%;
+    border: 1px solid #999;
+    margin-top: 10px;
+    background: #eef1f8;
+}
+ table tr { 
+	border:1px solid #999; 
+	padding: 0px;
+	margin: 10px 0px 0px 0px ;
+	background: #eef1f8;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.per-ticket td {
+    height: 30px;
+    line-height: 30px;
+    padding: 4px 0 4px 5px;
+}
+option {
+    font-weight: normal;
+    display: block;
+    white-space: pre;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
+.pos-rel {
+    position: relative;
+}
+.inptxt {
+    height: 18px;
+    line-height: 18px;
+    border: 1px solid #cfcdc7;
+    background: #fff;
+    color: #999;
+    padding: 5px 0 5px 5px;
+}
+.w110 {
+    width: 105px;
+}
+input, select, textarea {
+    font-size: 12px;
+    font-family: Tahoma;
+    line-height: 18px;
+    padding: 0;
+    margin: 0;
+    color: #333;
+    outline: 0;
+}
+.lay-btn a {
+    margin: 0 10px;
+}
+.btn92s {
+    width: 92px;
+    display: inline-block;
+    text-align: center;
+    
+}
+.btn92s, .btn122s, .btn200s, .btn30s {
+    height: 30px;
+    line-height: 30px;
+    background-position: 0 0;
+    color: #fff;
+}
+.person .lay-bd {
+    background: #fff;
+    padding: 5px 10px 0 10px;
+}
+
+.tips-txt {
+    background: #fffbe5;
+    border: 1px solid #fbd800;
+    padding: 5px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}

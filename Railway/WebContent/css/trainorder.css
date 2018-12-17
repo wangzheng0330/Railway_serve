@@ -1,0 +1,312 @@
+@charset "UTF-8";
+
+@charset "UTF-8";
+.breadcrumb {
+    height: 50px;
+    line-height: 50px;
+    color: #666;
+    font-size: 12px;
+}
+.center-menu {
+    float: left;
+    width: 130px;
+}
+ol, ul, li {
+    list-style: none;
+}
+.center-menu .menu-item {
+    margin-bottom: 4px;
+}
+.center-menu .active {
+    background: #3B99FC;
+    color: #fff;
+}
+.colorA {
+    color: #fb7403;
+}
+.center-menu .menu-tit{
+    font-weight: 700;
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+}
+.center-menu .active > a {
+    color: #fff;
+}
+.wrapper {
+    width: 1200px;
+    padding: 0 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.center-menu .menu-item {
+    margin-bottom: 4px;
+}
+.center-menu .menu-sub a {
+    display: block;
+    height: 30px;
+    font-size:14px;
+    line-height: 30px;
+    padding: 0 10px 0 20px;
+    color: #666;
+    overflow: hidden;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.center-main {
+    width: 830px;
+    float: right;
+}
+.center-welcome {
+    border: 1px solid #DEDEDE;
+    border-top: 2px solid #3B99FC;
+    padding: 30px 30px 30px 30px;
+    -webkit-box-shadow: 0 0 5px #E5E5E5;
+    box-shadow: 0 0 5px #E5E5E5;
+    background: #FAFDFF;
+    position: relative;
+}
+.center-welcome .welcome-tit {
+    font-size: 18px;
+    height: 65px;
+    line-height: 65px;
+}
+.center-welcome .welcome-tit .welcome-notice {
+    float: left;
+    text-align: right;
+    width: 80px;
+    height: 65px;
+    margin-right: 20px;
+}
+.center-welcome .welcome-tit .welcome-name {
+    font-size: 24px;
+    margin-right: 15px;
+    font-weight: 400;
+}
+.center-welcome .welcome-con {
+    line-height: 32px;
+    padding: 10px 20px;
+    border: 1px dashed #9ECCFE;
+    background: #FAFDFF;
+    -webkit-box-shadow: 0 0 5px 5px #F3FAFF inset;
+    box-shadow: 0 0 5px 5px #F3FAFF inset;
+    position: relative;
+    z-index: 2;
+    margin-top: 15px;
+}
+.center-welcome .welcome-code {
+    overflow: hidden;
+    margin: 40px 0 30px;
+}
+.center-welcome .welcome-code li {
+    float: left;
+    width: 230px;
+    text-align: center;
+    margin-right: 10px;
+}
+.center-welcome .welcome-code .code-pic {
+    width: 124px;
+    height: 124px;
+    background: #fff;
+    margin: 0 auto;
+    border: 2px solid #D7EAFF;
+    display: block;
+}
+.center-welcome .welcome-code .code-pic img {
+    display: block;
+    width: 120px;
+    height: 120px;
+}
+.center-welcome .welcome-code .code-txt {
+    margin-top: 12px;
+    line-height: 20px;
+    font-size: 12px;
+}
+.center-welcome .welcome-code li {
+    float: left;
+    width: 230px;
+    text-align: center;
+    margin-right: 10px;
+}
+.tips-box {
+    border: 2px solid #ffddba;
+    background: #fffbf8;
+    padding: 10px 20px 10px 20px;
+    line-height: 20px;
+}
+.center-menu .active {
+    background: #3B99FC;
+    color: #fff;
+}
+
+
+.panel-tab .tab-item {
+    min-width: 988px;
+}
+.panel-tab .tab-item {
+    display: none;
+    padding: 20px;
+}
+.panel-tab .tab-item {
+    display: none;
+    padding: 20px;
+}
+.order-filter {
+    height: 32px;
+    border-bottom: 2px solid #3B99FC;
+    margin: 40px 0 20px 0;
+}
+.order-filter .active {
+    background: #3B99FC;
+    color: #fff;
+}
+.order-filter a {
+    float: left;
+    min-width: 110px;
+    padding: 0 20px;
+    height: 32px;
+    line-height: 30px;
+    text-align: center;
+}
+.order-panel-head {
+    width: 100%;
+    height: 40px;
+    background: #F8F8F8;
+}
+.order-panel.order-panel-history .col-train {
+    width: 220px;
+}
+.order-panel.order-panel-history .col-passenger {
+    width: 170px;
+}
+.order-panel.order-panel-history .col-seat {
+    width: 150px;
+}
+.order-panel.order-panel-history .col-price {
+    width: 160px;
+}
+.order-panel.order-panel-history .col-state {
+    width: 140px;
+}
+.order-panel-head th {
+    text-align: center;
+    color: #666;
+    padding: 0 10px;
+}
+.order-panel-head th {
+    text-align: center;
+    color: #666;
+    padding: 0 10px;
+}
+ .order-item {
+    border: 1px solid #acd1f9;
+    margin-top: 20px;
+    -webkit-transition: .3s linear border;
+    transition: .3s linear border;
+}
+.order-item-hd {
+    height: 40px;
+    line-height: 40px;
+    background: #F0F8FF;
+    padding: 0 20px;
+    overflow: hidden;
+}
+.order-hd-info {
+    float: left;
+    margin-right: 20px;
+}
+.txt-light, .txt-tips {
+    color: #666 !important;
+}
+.order-panel .order-item-bd {
+    width: 100%;
+    text-align: center;
+}
+.order-item-table {
+    width: 100%;
+    text-align: center;
+    border: 1px;
+}
+.order-item-table .has-order-num td {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.order-item-table .order-info-ticket {
+    position: relative;
+}
+.txt-bold, .txt-700 {
+    font-weight: 700;
+}
+.txt-lg {
+    font-size: 16px !important;
+}
+.order-item-table .order-info-ticket .icon-to {
+    font-size: 12px;
+    margin: 0 -2px;
+}
+.order-item-table .has-order-num td {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.order-item-table .passenger-operation {
+    padding-left: 20px;
+    position: relative;
+}
+.order-item-table .passenger-operation .passenger-check {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -8px;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+}
+.order-item-table .has-order-num td {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.order-item-table .br-none {
+    border-right: none;
+}
+.order-item-table .td-left {
+    padding-left: 20px;
+    text-align: left;
+}
+.train-juti{
+	margin: 15px 0px 10px 10px; 
+	padding: 5px;
+	font-size:14px;
+	/* text-align: left; */
+}
+.check-inline {
+    position: relative;
+    display: inline-block;
+    line-height: 30px;
+    padding-left: 20px;
+    margin-bottom: 0;
+    vertical-align: middle;
+    font-weight: normal;
+    cursor: pointer;
+}
+.order-item-table .order-operation {
+    padding: 20px 10px;
+    border-right: none;
+}
+.btn-right {
+    text-align: right;
+    font-size: 0;
+}
+.btn-right a {
+    margin-left: 10px;
+}
+.btn-right a {
+    margin-left: 10px;
+}
+.btn.btn-disabled {
+    background: #eaeded;
+    color: #999;
+    border-color: #eaeded;
+    cursor: not-allowed;
+}

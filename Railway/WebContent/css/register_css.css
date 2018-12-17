@@ -1,0 +1,38 @@
+.crumbs {
+    height: 32px;
+    line-height: 32px;
+}
+.lay-hd {
+    height: 32px;
+    line-height: 30px;
+    background-color: #e5f8ff;
+    padding-left: 20px;
+    font-size: 14px;
+    position: relative;
+}
+.layout {
+    border: 1px solid #1678BE;
+    border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    -ms-border-radius: 5px 5px 0 0;
+    -o-border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    background-position: 0 -400px;
+}
+.form_info{
+    margin: 0px;
+    padding: 10px 10px 20px 10px;
+    text-align: center;
+    background-color: white;
+}
+.register_input {
+    width: 195px;
+    height: 28px;
+    margin: 10px;
+    font-size: 14px;
+}
+.register_label{
+    height: 30px;
+    font-size: 16px;
+    font-family: "楷体"
+}

@@ -1,0 +1,125 @@
+@charset "UTF-8";
+.index-search {
+    height: 629px;
+    padding-top: 1px;
+    background: #f5f5f5 url(../image/bg_search.jpg) center center no-repeat;
+}
+
+.index-search .search-con {
+    position: relative;
+    height: 56px;
+    width: 980px;
+    margin: 300px auto;
+    animation: up-lg .5s;
+}
+
+.index-search .item {
+    float: left;
+    border-right: 1px solid #e6e6e6;
+    background: #fff;
+    height: 56px;
+    width: 210px;
+    position: relative;
+}
+.index-search .item-time {
+    -webkit-border-radius: 3px 0 0 3px;
+    -moz-border-radius: 3px 0 0 3px;
+    -o-border-radius: 3px 0 0 3px;
+    border-radius: 3px 0 0 3px;
+}
+.index-search .item-bd {
+    height: 56px;
+    position: relative;
+    overflow: hidden;
+}
+.index-search .item-time .i-date {
+    position: absolute;
+    left: 10px;
+    top: 17px;
+    width: 16px;
+    height: 17px;
+    background: url(../image/date_search.png);
+}
+.index-search .item-time .label {
+    left: 26px;
+}
+.index-search .item .label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    padding-left: 10px;
+    z-index: 10;
+    height: 56px;
+    line-height: 56px;
+    font-size: 16px;
+    color: #666;
+}
+
+.index-search .item-time .inp {
+    padding-left: 36px;
+    width: 164px;
+}
+.index-search .item .inp {
+    width: 130px;
+    padding: 13px 10px 15px 70px;
+    border: 0 none;
+    background: none;
+    font-size: 16px;
+    height: 28px;
+    line-height: 28px;
+}
+.index-search .item-num {
+    border-right: none;
+}
+.index-search .item {
+    float: left;
+    border-right: 1px solid #e6e6e6;
+    background: #fff;
+    height: 56px;
+    width: 200px;
+    position: relative;
+}
+.index-search .item .label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    padding-left: 10px;
+    z-index: 10;
+    height: 56px;
+    line-height: 56px;
+    font-size: 16px;
+    color: #666;
+}
+
+.index-search .item {
+    float: left;
+    border-right: 1px solid #e6e6e6;
+    background: #fff;
+    height: 56px;
+    width: 200px;
+    position: relative;
+}
+.index-search .item-btn {
+    float: left;
+    width: 180px;
+    height: 56px;
+}
+.index-search .item-btn a {
+    display: block;
+    height: 56px;
+    line-height: 56px;
+    background: #ff8200;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    -webkit-border-radius: 0 3px 3px 0;
+    -moz-border-radius: 0 3px 3px 0;
+    -o-border-radius: 0 3px 3px 0;
+    border-radius: 0 3px 3px 0;
+    -webkit-transition: .3s linear background;
+    -moz-transition: .3s linear background;
+    -o-transition: .3s linear background;
+    transition: .3s linear background;
+}
